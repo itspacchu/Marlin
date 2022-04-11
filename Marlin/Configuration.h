@@ -691,7 +691,7 @@
  * heater. If your configuration is significantly different than this and you don't understand
  * the issues involved, don't use bed PID until someone else verifies that your hardware works.
  */
-//#define PIDTEMPBED
+#define PIDTEMPBED
 
 //#define BED_LIMIT_SWITCHING
 
@@ -786,6 +786,9 @@
  *
  * *** IT IS HIGHLY RECOMMENDED TO LEAVE THIS OPTION ENABLED! ***
  */
+
+//#define EXTRUDERS 1
+
 #define PREVENT_COLD_EXTRUSION
 #define EXTRUDE_MINTEMP 170
 
